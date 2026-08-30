@@ -1,0 +1,7 @@
+<ModOps>
+
+    <Include File="audio/assets__index.xml" />
+    <Include File="soundbanks/assets__index.xml" />
+    <Include File="assets_region_unlock.xml" />
+
+</ModOps>

@@ -1,0 +1,48 @@
+<ModOps>
+
+  <ModOp Type="addNextSibling" GUID="224035">
+    <Asset>
+      <Template>Audio</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000854</GUID>
+          <Name>Natoncy_Orient_Play_Music</Name>
+        </Standard>
+        <Audio>
+          <MaxAttenuation>25</MaxAttenuation>
+          <ClusterEvent>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <AudioLink/>
+            </Values>
+          </ClusterEvent>
+        </Audio>
+        <WwiseStandard>
+          <WwiseID>65769146</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Audio</Template>
+      <Values>
+        <Standard>
+          <GUID>1404000857</GUID>
+          <Name>Natoncy_Orient_Stop_Music</Name>
+        </Standard>
+        <Audio>
+          <MaxAttenuation>0</MaxAttenuation>
+          <ClusterEvent>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <AudioLink/>
+            </Values>
+          </ClusterEvent>
+        </Audio>
+        <WwiseStandard>
+          <WwiseID>467769552</WwiseID>
+        </WwiseStandard>
+      </Values>
+    </Asset>
+  </ModOp>
+  
+</ModOps>

@@ -1,0 +1,164 @@
+<ModOps>
+
+	<ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000856</GUID>
+					<Name>SessionEnter Check</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionEvent</Template>
+                        <Values>
+                            <Condition />
+                            <ConditionEvent>
+                                <ConditionEvent>SessionEnter</ConditionEvent>
+                            </ConditionEvent>
+                            <ConditionPropsNegatable />
+                        </Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>data/script/music/region_check.lua</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+                          <TriggerAction>
+                            <Template>ActionResetTrigger</Template>
+                            <Values>
+                              <Action />
+                              <ActionResetTrigger />
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+        <Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000855</GUID>
+					<Name>SessionExit Music</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionEvent</Template>
+						<Values>
+							<Condition />
+							<ConditionEvent>
+								<ConditionEvent>SessionLeave</ConditionEvent>
+							</ConditionEvent>
+							<ConditionPropsNegatable />
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+							<Template>ActionPlaySound</Template>
+							<Values>
+								<Action />
+								<ActionPlaySound>
+								<Sound>1404000857</Sound>
+								</ActionPlaySound>
+							</Values>
+							</TriggerAction>
+						</Item>
+						<Item>
+                          <TriggerAction>
+                            <Template>ActionResetTrigger</Template>
+                            <Values>
+                              <Action />
+                              <ActionResetTrigger />
+                            </Values>
+                          </TriggerAction>
+                        </Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup />
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000858</GUID>
+					<Name>SessionEnter Play Music</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionActiveSession</Template>
+						<Values>
+							<Condition />
+							<ConditionActiveSession>
+								<ActiveSession>1404000000</ActiveSession>
+							</ConditionActiveSession>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+							<Template>ActionPlaySound</Template>
+								<Values>
+									<Action />
+									<ActionPlaySound>
+									<Sound>1404000854</Sound>
+									</ActionPlaySound>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup>
+					<AutoRegisterTrigger>0</AutoRegisterTrigger>
+				</TriggerSetup>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1404000860</GUID>
+					<Name>Exit to Menu Register</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionAlwaysTrue</Template>
+						<Values>
+							<Condition />
+							<ConditionAlwaysTrue />
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionExecuteScript</Template>
+								<Values>
+									<Action/>
+									<ActionExecuteScript>
+										<ScriptFileName>data/script/music/exit_to_menu.lua</ScriptFileName>
+									</ActionExecuteScript>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+    </ModOp>
+
+</ModOps>
+
+

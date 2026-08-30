@@ -1,0 +1,33 @@
+<ModOps>
+
+    <ModOp Type="addNextSibling" GUID="234859">
+    <Asset>
+        <Template>SoundBank</Template>
+        <Values>
+        <Standard>
+            <GUID>1404000853</GUID>
+            <Name>BNK_Music_Natoncy_Orient</Name>
+            <IconFilename>test_data/graphics/wwise_icons/soundbank.png</IconFilename>
+        </Standard>
+        <SoundBank/>
+        <WwiseStandard>
+            <WwiseID>626769978</WwiseID>
+        </WwiseStandard>
+        </Values>
+    </Asset>
+    </ModOp>
+
+  <ModOp Type="add" GUID="5000001,5000000,160001,114327" Path="/Values/RequiredSoundBanks/SoundBanks">
+    <Item>
+      <Bank>1404000853</Bank>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="add" GUID="133700001" Path="/Values/RequiredSoundBanks/SoundBanks" Condition="@133700001">
+    <Item>
+      <Bank>1404000853</Bank>
+    </Item>
+  </ModOp>
+
+
+</ModOps>
