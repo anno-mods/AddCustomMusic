@@ -8,3 +8,5 @@ but the key takeaway is this:
 - If so, trigger the Start Event
 - When leaving any session, fire the Stop Event
 - A lua script running in the background stops the music when exiting to the Main Menu
+
+If you have any questions, feel free to dm @Intetsch on Discord
