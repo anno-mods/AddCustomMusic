@@ -9,4 +9,6 @@ but the key takeaway is this:
 - When leaving any session, fire the Stop Event
 - A lua script running in the background stops the music when exiting to the Main Menu
 
+Take a look at the [SoundbankCatalog.md](https://github.com/anno-mods/AddCustomMusic/blob/main/SoundbankCatalog.md) for an overview of vanilla soundbanks.
+
 If you have any questions, feel free to dm @Intetsch on Discord
